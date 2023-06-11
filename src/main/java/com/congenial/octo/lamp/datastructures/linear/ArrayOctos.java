@@ -2,6 +2,7 @@ package com.congenial.octo.lamp.datastructures.linear;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 
 import com.congenial.octo.lamp.util.Utility;
 
@@ -49,6 +50,7 @@ public class ArrayOctos {
         Utility.out(Arrays.toString(ch1));
         Utility.out(Arrays.toString(ch2));
 
+        Utility.out(Character.isLetterOrDigit(ch2[0]));
     }
 
     static void multi_array() {
@@ -67,5 +69,19 @@ public class ArrayOctos {
 
         Utility.out("\nString output multi-dimensional");
         Utility.out(Arrays.deepToString(num2));
+
+
+        int[][] num3 = {{2,4,},{6,3},{9,5},{1,1},{10,0}};
+        Utility.out("\nSort multi-dimensional");
+        Utility.out(Arrays.deepToString(num3));
+
+        Arrays.sort(num3, new Comparator<int[]>() {
+            public int compare(int[] a, int[] b){
+                // return a[0]-b[0];
+                return b[1]-a[1];
+            }
+        });
+
+        Utility.out(Arrays.deepToString(num3));
     }    
 }
