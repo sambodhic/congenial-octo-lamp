@@ -92,6 +92,15 @@ public class LinkedListOctos {
             Utility.out(Integer.toString(p.data));
             p = p.next;
         }
+
+        Utility.out("\nRemove nth from last");
+        removeNthFromEnd();
+        p = head;
+        while (p != null) {
+            Utility.out(Integer.toString(p.data));
+            p = p.next;
+        }
+
     }
 
     // define Node
@@ -167,5 +176,28 @@ public class LinkedListOctos {
             cur = temp;
         }
         head = pre;
+    }
+
+    static void removeNthFromEnd(){
+        Node dummyNode = new Node(0);
+        dummyNode.next = head;
+
+        int n=4;
+
+        Node fast = dummyNode;
+        Node slow = dummyNode;
+
+        for (int i=1; i<n+1; i++){
+            fast = fast.next;
+        }
+
+        while (fast.next!=null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        slow.next = slow.next.next;
+        head = dummyNode.next;
+        
     }
 }
