@@ -1,7 +1,5 @@
 package com.congenial.octo.lamp.leetcode;
 
-import java.util.Arrays;
-
 public class Lc528_RandomPickByWeight {
 private int[] idx = new int[10];
 
