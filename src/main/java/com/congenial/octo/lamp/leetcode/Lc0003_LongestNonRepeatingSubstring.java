@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.HashSet;
 
-public class Lc3_LongestNonRepeatingSubstring {
+public class Lc0003_LongestNonRepeatingSubstring {
     public static void main(String[] args) {
         String s = "pwwkjshslajkhsjhgaksjhdew";
 

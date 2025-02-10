@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.Arrays;
 
-public class Lc253_MeetingRooms {
+public class Lc0253_MeetingRooms {
 
     public static void main(String[] args) {
         int[][] intervals = { { 0, 30 }, { 5, 10 }, { 15, 20 } };

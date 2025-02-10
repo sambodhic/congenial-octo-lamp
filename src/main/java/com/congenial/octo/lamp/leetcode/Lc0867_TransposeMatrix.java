@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.Arrays;
 
-public class Lc867_TransposeMatrix {
+public class Lc0867_TransposeMatrix {
     public static void main(String[] args) {
         int[][]matrix = {{1,2,3},{4,5,6}};
         int[][] result = new int[matrix[0].length][matrix.length];

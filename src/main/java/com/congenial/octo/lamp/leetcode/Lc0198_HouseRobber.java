@@ -1,6 +1,6 @@
 package com.congenial.octo.lamp.leetcode;
 
-public class Lc198_HouseRobber {
+public class Lc0198_HouseRobber {
     static int[] houses = { 2, 7, 9, 3, 1 };
 
     public static void main(String[] args) {

@@ -1,9 +1,9 @@
 package com.congenial.octo.lamp.leetcode;
 
-public class Lc29_DivideTwoIntegers {
+public class Lc0029_DivideTwoIntegers {
 
     public static void main(String[] args){
-        Lc29_DivideTwoIntegers lc = new Lc29_DivideTwoIntegers();
+        Lc0029_DivideTwoIntegers lc = new Lc0029_DivideTwoIntegers();
         // System.out.println(lc.divide(-2147483648,-1));
         int dividend = 100, divisor = 10;
         System.out.println(1 << 2 << 3 << 4);

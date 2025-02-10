@@ -1,6 +1,6 @@
 package com.congenial.octo.lamp.leetcode;
 
-public class Lc453_MinMovestoEqualArray {
+public class Lc0453_MinMovestoEqualArray {
     public static void main(String[] args) {
         // int[] nums = {1,2,3};
         int[] nums = {1,1,1};

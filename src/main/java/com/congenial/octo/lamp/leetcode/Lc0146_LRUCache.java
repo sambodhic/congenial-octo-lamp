@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.HashMap;
 
-public class Lc146_LRUCache {
+public class Lc0146_LRUCache {
 
     Node head = new Node();
     Node tail = new Node();
@@ -11,7 +11,7 @@ public class Lc146_LRUCache {
 
     public static void main(String[] args) {
 
-        Lc146_LRUCache lru = new Lc146_LRUCache(2);
+        Lc0146_LRUCache lru = new Lc0146_LRUCache(2);
         lru.put(1, 1);
         lru.put(2, 2);
         lru.get(1);
@@ -24,7 +24,7 @@ public class Lc146_LRUCache {
         System.out.println("");
     }
 
-    public Lc146_LRUCache(int capacity) {
+    public Lc0146_LRUCache(int capacity) {
         cache_capacity = capacity;
         node_map = new HashMap<>(cache_capacity);
         head.next = tail;

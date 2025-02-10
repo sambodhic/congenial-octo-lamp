@@ -1,6 +1,6 @@
 package com.congenial.octo.lamp.leetcode;
 
-public class Lc121_BestTimetoBuyAndSell {
+public class Lc0121_BestTimetoBuyAndSell {
 
     public static void main (String[] args){
         int[] price = {7,7,5,3,6,4,9,4,11};

@@ -5,7 +5,7 @@ import java.util.Map.Entry;
 import java.util.NavigableMap;
 import java.util.TreeMap;
 
-public class Lc691_StickersToSpellWords {
+public class Lc0691_StickersToSpellWords {
 
     public static void main(String[] args) {
         String[] stickers = {"with","example","science"};

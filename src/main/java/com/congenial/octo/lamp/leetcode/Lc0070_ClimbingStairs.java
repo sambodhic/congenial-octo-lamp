@@ -1,6 +1,6 @@
 package com.congenial.octo.lamp.leetcode;
 
-public class Lc70_ClimbingStairs {
+public class Lc0070_ClimbingStairs {
     static int stairs = 5;
 
     public static void main(String[] args) {

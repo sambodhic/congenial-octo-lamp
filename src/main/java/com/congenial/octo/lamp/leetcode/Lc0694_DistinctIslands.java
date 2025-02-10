@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.HashSet;
 
-public class Lc694_DistinctIslands {
+public class Lc0694_DistinctIslands {
     static int[][] DIR = { { 1, 0, 'R' }, { 0, 1, 'D' }, { -1, 0, 'D' }, { 0, -1, 'U' } };
 
     public static void main(String[] args) {

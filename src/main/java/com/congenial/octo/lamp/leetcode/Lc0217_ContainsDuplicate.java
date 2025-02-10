@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.HashMap;
 
-public class Lc217_ContainsDuplicate {
+public class Lc0217_ContainsDuplicate {
     static int[] in = { 1, 2, 3, 1 };
 
     public static void main(String[] args) {

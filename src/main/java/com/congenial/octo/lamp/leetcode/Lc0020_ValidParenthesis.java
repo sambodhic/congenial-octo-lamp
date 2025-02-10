@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.*;
 
-public class Lc20_ValidParenthesis {
+public class Lc0020_ValidParenthesis {
     public static void main(String[] args){
 
         Stack<Character> st = new Stack<Character>();

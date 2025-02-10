@@ -1,6 +1,6 @@
 package com.congenial.octo.lamp.leetcode;
 
-public class Lc152_MaximumProductSubarray {
+public class Lc0152_MaximumProductSubarray {
     static int[] nums = { 2, 3, -2, 4 };
 
     public static void main(String[] args) {

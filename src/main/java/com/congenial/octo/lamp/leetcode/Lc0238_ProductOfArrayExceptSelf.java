@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.Arrays;
 
-public class Lc238_ProductOfArrayExceptSelf {
+public class Lc0238_ProductOfArrayExceptSelf {
     static int[] in = { 1, 2, 3, 4 };
 
     public static void main(String[] args) {

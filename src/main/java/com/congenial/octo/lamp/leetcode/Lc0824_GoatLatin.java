@@ -1,6 +1,6 @@
 package com.congenial.octo.lamp.leetcode;
 
-class Lc824_GoatLatin{
+class Lc0824_GoatLatin{
 
     public static void main(String[] args) {
         String sentence = "I speak Goat Latin";

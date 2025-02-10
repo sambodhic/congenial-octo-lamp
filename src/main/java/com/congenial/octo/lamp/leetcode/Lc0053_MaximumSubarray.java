@@ -1,6 +1,6 @@
 package com.congenial.octo.lamp.leetcode;
 
-public class Lc53_MaximumSubarray {
+public class Lc0053_MaximumSubarray {
 
     static int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
 

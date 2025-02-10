@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.*;
 
-public class Lc811_SubdomainVisitCount {
+public class Lc0811_SubdomainVisitCount {
 
     public static void main(String[] org) {
 

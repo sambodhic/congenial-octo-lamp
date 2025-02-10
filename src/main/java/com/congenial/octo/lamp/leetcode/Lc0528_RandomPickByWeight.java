@@ -1,15 +1,15 @@
 package com.congenial.octo.lamp.leetcode;
 
-public class Lc528_RandomPickByWeight {
+public class Lc0528_RandomPickByWeight {
 private int[] idx = new int[10];
 
     public static void main(String[] args){
         int[] w = {1,3,4};
-        Lc528_RandomPickByWeight rm = new Lc528_RandomPickByWeight(w);
+        Lc0528_RandomPickByWeight rm = new Lc0528_RandomPickByWeight(w);
         rm.pickIndex();
     }
 
-    public Lc528_RandomPickByWeight(int[] w) {
+    public Lc0528_RandomPickByWeight(int[] w) {
         double sum = 0.0;
         for (int i = 0; i < w.length; i++)
             sum += w[i];

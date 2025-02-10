@@ -2,7 +2,7 @@ package com.congenial.octo.lamp.leetcode;
 
 import java.util.Stack;
 
-public class Lc316_RemoveDuplicateLetters {
+public class Lc0316_RemoveDuplicateLetters {
 
     public static void main(String[] args) {
         String s = "cbacdcbc";
