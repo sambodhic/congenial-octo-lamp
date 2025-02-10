@@ -2,6 +2,8 @@ package com.congenial.octo.lamp.datastructures.nonlinear;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
+import java.util.NavigableMap;
+import java.util.TreeMap;
 
 import com.congenial.octo.lamp.util.Utility;
 
@@ -40,5 +42,9 @@ public class HashMapOctos {
         for(Entry<String, String> s: capitalCities.entrySet()){
             Utility.out(s);
         }
+
+
+        TreeMap<Integer, String> treeMap = new TreeMap<>();
+        NavigableMap<Integer, String> reversedMap = treeMap.descendingMap();
     }
 }
