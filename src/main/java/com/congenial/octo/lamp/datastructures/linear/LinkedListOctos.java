@@ -24,6 +24,8 @@ public class LinkedListOctos {
         Utility.out(cars.getLast());
         Utility.out("\nFirst item:");
         Utility.out(cars.peek());
+        Utility.out("\nFirt item (and deletes it too):");
+        Utility.out(cars.poll());
         Utility.out("\nLast item (and deletes it too):");
         Utility.out(cars.pollLast());
 

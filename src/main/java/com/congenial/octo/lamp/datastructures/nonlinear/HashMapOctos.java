@@ -45,6 +45,17 @@ public class HashMapOctos {
 
 
         TreeMap<Integer, String> treeMap = new TreeMap<>();
+        treeMap.put(1, "abc");
+        treeMap.put(3, "def");
+        treeMap.put(2, "ghi");
         NavigableMap<Integer, String> reversedMap = treeMap.descendingMap();
+
+        for (String str: treeMap.values()){
+            System.out.println(str);
+        }
+
+        for (String str: reversedMap.values()){
+            System.out.println(str);
+        }
     }
 }
